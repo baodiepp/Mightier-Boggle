@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiDarkMode.GuiController">
+    <children>
+      <GridPane layoutX="157.0" layoutY="200.0" prefHeight="280.0" prefWidth="387.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="tile10" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile00" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile01" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile11" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile20" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile21" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile02" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile12" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile22" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile03" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile13" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile30" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile31" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile32" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile33" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="tile23" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="65.0" prefWidth="91.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Avenir Next Bold" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TextArea fx:id="textWordArea" disable="true" layoutX="157.0" layoutY="501.0" prefHeight="80.0" prefWidth="310.0" promptText="Click Start to Begin!">
+         <font>
+            <Font size="28.0" />
+         </font></TextArea>
+      <TextArea fx:id="textFoundArea" editable="false" layoutX="14.0" layoutY="346.0" prefHeight="240.0" prefWidth="116.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <Text layoutX="14.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Words Found" textAlignment="CENTER" wrappingWidth="116.0">
+         <font>
+            <Font name="Arial Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="startButton" layoutX="571.0" layoutY="242.0" mnemonicParsing="false" onAction="#setup4x4Board" prefHeight="53.0" prefWidth="108.0" text="Start" />
+      <Button fx:id="endGameButton" disable="true" layoutX="571.0" layoutY="314.0" mnemonicParsing="false" onAction="#endGame" prefHeight="53.0" prefWidth="108.0" text="End Game" />
+      <Button fx:id="hintButton" disable="true" layoutX="571.0" layoutY="514.0" mnemonicParsing="false" onAction="#getHint" prefHeight="53.0" prefWidth="108.0" text="Hint" />
+      <Text fill="RED" layoutX="368.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Score:" textAlignment="CENTER" wrappingWidth="140.248046875">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text fx:id="gameScore" fill="RED" layoutX="417.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="42.193359375">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Label layoutX="157.0" prefHeight="120.0" prefWidth="544.0" text="Mightier Boggle">
+         <font>
+            <Font name="AppleGothic Regular" size="66.0" />
+         </font>
+      </Label>
+      <Button fx:id="checkButton" disable="true" layoutX="471.0" layoutY="526.0" mnemonicParsing="false" onAction="#setCheckButton" prefHeight="41.0" prefWidth="75.0" text="Check" />
+      <TextArea fx:id="computerFoundArea" editable="false" layoutX="14.0" layoutY="55.0" prefHeight="240.0" prefWidth="116.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Computer Words Found" textAlignment="CENTER" wrappingWidth="116.0">
+         <font>
+            <Font name="Arial Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="206.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Computer Score:" textAlignment="CENTER" wrappingWidth="140.248046875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="computerScore" fill="RED" layoutX="255.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="42.193359375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="quitButton" disable="true" layoutX="571.0" layoutY="388.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="53.0" prefWidth="108.0" text="Quit Boggle" />
+    </children>
+</AnchorPane>
